@@ -12,6 +12,7 @@ export default function SocialsBar({ onHomePage }) {
         <a
           href="mailto:quirkeniall@gmail.com"
           target="_blank"
+          rel="noreferrer"
           style={{ margin: "0px " + margin + "px 0px " + margin + "px" }}
         >
           <Image src="/images/social_icons/email_icon.png" height={size} width={size} />
@@ -19,6 +20,7 @@ export default function SocialsBar({ onHomePage }) {
         <a
           href="https://www.linkedin.com/in/niallquirke/"
           target="_blank"
+          rel="noreferrer"
           style={{ margin: "0px " + margin + "px 0px " + margin + "px" }}
         >
           <Image src="/images/social_icons/linkedin_icon.png" height={size} width={size} />
@@ -26,6 +28,7 @@ export default function SocialsBar({ onHomePage }) {
         <a
           href="https://github.com/niallquirke"
           target="_blank"
+          rel="noreferrer"
           style={{ margin: "0px " + margin + "px 0px " + margin + "px" }}
         >
           <Image src="/images/social_icons/github_icon.png" height={size} width={size} />
@@ -33,6 +36,7 @@ export default function SocialsBar({ onHomePage }) {
         <a
           href="https://www.instagram.com/niallquirke/"
           target="_blank"
+          rel="noreferrer"
           style={{ margin: "0px " + margin + "px 0px " + margin + "px" }}
         >
           <Image src="/images/social_icons/instagram_icon.png" height={size} width={size} />
