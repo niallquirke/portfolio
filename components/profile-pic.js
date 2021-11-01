@@ -1,13 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
 
 export default function ProfilePic({ onHomePage }) {
   if (onHomePage)
     return (
       <>
-        <Image
+        <img
           priority
           src="/images/profile.jpg"
           className={utilStyles.borderCircle}
@@ -21,7 +20,7 @@ export default function ProfilePic({ onHomePage }) {
       <>
         <Link href="/">
           <a>
-            <Image
+            <img
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
