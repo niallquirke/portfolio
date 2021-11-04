@@ -3,17 +3,12 @@ title: "👥 Microsoft Teams Shifts at Microsoft"
 date: "2021-09-01"
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+![Microsoft](https://s3.eu-west-1.amazonaws.com/niallquirke.com/images/microsoft.png)
 
-You can use Static Generation for many types of pages, including:
+**[Video about our team starring me!](https://www.youtube.com/watch?v=VX1HOJAJT_o&t=75s)**
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+At Microsoft I was a founding members of a new team within the Microsoft Teams product. We were tasked with building an integrations platform for Microsoft Teams Shifts so large enterprises could benefit from the app while keeping their current shift management system. This is enabling millions of front line workers to manage their shifts better, including scheduling shifts, swapping shifts and taking time off from their phones.
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+In my time on this team I contributed to the design, infrastructure, build, test, pilot and release of the platform with it's first integration. The platform consist mainly of a backend API and a backend syncing system built on C#, .Net Core, Serfice Fabric and Azure.
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+My biggest acheivement was building and owning the swapping shifts feature. It took considerable design and collaboration to sync its implementation between platforms.
