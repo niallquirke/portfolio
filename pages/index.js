@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          {">"} Freelance Sustainability Tech Engineer
+          {">"} Your Friendly Local Freelance Tech Guy
           <br />
           {">"} Post-Graduate Student in Sustainable Development
           <br />
