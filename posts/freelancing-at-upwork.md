@@ -1,5 +1,5 @@
 ---
-title: "Freelancing at Upwork"
+title: "🧑🏻‍💻 Freelancing on Upwork"
 date: "2022-01-01"
 ---
 
