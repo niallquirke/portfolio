@@ -30,7 +30,7 @@
           <v-card
             :href="project.link"
             rounded="lg"
-            class="w-100 pa-3"
+            class="w-100 pa-md-3"
             style="background-color: rgba(255, 255, 255, 0.8)"
           >
             <v-card-title>
