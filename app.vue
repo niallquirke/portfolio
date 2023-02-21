@@ -5,7 +5,7 @@
         <v-col class="d-flex justify-center">
           <div
             class="rounded-xl pa-5"
-            style="width: 380px; background-color: rgba(255, 255, 255, 0.9)"
+            style="width: 380px; background-color: rgba(255, 255, 255, 0.8)"
           >
             <div class="d-flex justify-center">
               <nuxt-img
@@ -31,7 +31,7 @@
             :href="project.link"
             rounded="lg"
             class="w-100 pa-3"
-            style="background-color: rgba(255, 255, 255, 0.9)"
+            style="background-color: rgba(255, 255, 255, 0.8)"
           >
             <v-card-title>
               <p>{{ project.title }}</p>
