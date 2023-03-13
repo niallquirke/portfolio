@@ -5,7 +5,7 @@
         <v-col class="d-flex justify-center">
           <div
             class="rounded-xl pa-5"
-            style="width: 380px; background-color: rgba(255, 255, 255, 0.8)"
+            style="width: 380px; background-color: rgba(255, 255, 255, 0.9)"
           >
             <div class="d-flex justify-center">
               <nuxt-img
@@ -18,6 +18,52 @@
             <h3 class="text-center text-grey-darken-2">
               Sustainability Tech Software Engineer
             </h3>
+            <div
+              class="d-flex justify-center mx-auto mt-3"
+              style="max-width: 180px"
+            >
+              <a
+                href="mailto:quirkeniall@gmail.com"
+                class="mx-2"
+                target="_blank"
+              >
+                <v-img
+                  src="/img/socials/email_icon.png"
+                  height="32px"
+                  width="32px"
+                />
+              </a>
+              <a
+                href="https://linkedin.com/in/niallquirke/"
+                class="mx-2"
+                target="_blank"
+                ><v-img
+                  src="/img/socials/linkedin_icon.png"
+                  height="32px"
+                  width="32px"
+                />
+              </a>
+              <a
+                href="https://github.com/niallquirke"
+                class="mx-2"
+                target="_blank"
+                ><v-img
+                  src="/img/socials/github_icon.png"
+                  height="32px"
+                  width="32px"
+                />
+              </a>
+              <a
+                href="https://instagram.com/niallquirke"
+                class="mx-2"
+                target="_blank"
+                ><v-img
+                  src="/img/socials/instagram_icon.png"
+                  height="35px"
+                  width="35px"
+                />
+              </a>
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -31,7 +77,7 @@
             :href="project.link"
             rounded="lg"
             class="w-100 pa-md-3"
-            style="background-color: rgba(255, 255, 255, 0.8)"
+            style="background-color: rgba(255, 255, 255, 0.9)"
           >
             <v-card-title>
               <p>{{ project.title }}</p>
